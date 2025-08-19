@@ -1,0 +1,54 @@
+// what is api : 
+//api is known as endpoint : 
+//api is only understood whatever things are given in the program : 
+
+
+
+// convert object  file into JSON file : 
+// const objectToConver ={
+//     name: "alice",
+//     age:25
+// };
+// const json = JSON.stringify(objectToConver);
+// console.log(json);
+
+
+
+// const fs = require("fs");
+// const os = require("os");
+
+// let user = os.userInfo();
+// console.log(user);
+// console.log(user.username);
+
+// // created a file with the help of file system 
+// // first file name , second file print value then callback function : 
+// fs.appendFile("greeting.txt", "hi" + user.username + "!", () => {
+//     console.log("file is created");
+// });
+
+
+// let age = 24;
+// console.log(age)
+// module.exports = {
+//     age
+// }
+
+
+
+// Server is creating 
+
+const express = require("express");``
+const app = express();
+
+app.get("/", (req, res) =>{
+    res.send("hello world")
+    console.log("hello world is printing")
+});
+app.get("/about", (req, res) =>{
+    res.send("my name is deepak ")
+});
+
+app.listen(3000, ()=>{
+    console.log("server is listening")
+});

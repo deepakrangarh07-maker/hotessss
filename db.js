@@ -11,9 +11,12 @@ mongoose.connect(mongoURl,{
     // useNewUrlParser : true,
     // useUnifiedTopology : true
 })
+.then(() => console.log("MongoDB Connected"))
+.catch(err => console.error(err));
 
 //get the default connection 
 //Mongoose maintains a default connection object represting the mongoDB connection 
+
 
 const db = mongoose.connection;
 

@@ -1,0 +1,11 @@
+{
+    "name" :"bob",
+    "age":22,
+    "work":"waiter",
+    "mobile":"555555555",
+    "email":"email@gamil.com",
+    "address": "los Angeled, CA",
+    "salary" : 300000,
+    "username":"iamprince",
+    "password" : "password1234"
+}
